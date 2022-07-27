@@ -108,25 +108,25 @@ footer {
 }
 
 .one {
-    background-image: url(./cat\ 1.jpg);
+    background-image: url(./img/cat\ 1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .two {
-    background-image: url(./cat\ 2.jpg);
+    background-image: url(./img/cat\ 2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .three {
-    background-image: url(./cat\ 3.jpg);
+    background-image: url(./img/cat\ 3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .four {
-    background-image: url(./cat\ 4.jpg);
+    background-image: url(./img/cat\ 4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -138,13 +138,13 @@ footer {
 }
 
 .five {
-    background-image: url(./cat\ 5.jpg);
+    background-image: url(./img/cat\ 5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .six {
-    background-image: url(./cat\ 6.jpg);
+    background-image: url(./img/cat\ 6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
