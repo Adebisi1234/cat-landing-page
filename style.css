@@ -141,9 +141,18 @@ footer {
     background-image: url(./cat\ 5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .six {
     background-image: url(./cat\ 6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+li {
+    margin: 1px;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+li:last-child {
+    border: none;
 }
