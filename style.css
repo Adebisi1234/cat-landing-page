@@ -1,19 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+* {
     font-family: 'Roboto', sans-serif;
-    color: white;
 }
 
 header, footer,main {
     display: flex;
-    background-color: black;
+    background-color: #1f2937;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* Header & main */
 
 header {
     padding: 0 10%;
     justify-content: space-between;
     align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.main p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 9px;
+    padding: 2% 5%;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-weight: 600;
 }
 
 ul {
@@ -23,39 +53,43 @@ ul {
     margin: 0;
 }
 
-button {
-    border-radius: 9px;
+li {
+    margin: 1px;
+    border-right: 2px solid white;
+    padding-right: 5px;
+    color: #e5e7eb;
 }
+li:last-child {
+    border: none;
+}
+
+
 
 li {
     list-style: none;
 }
 .placeholder {
-    flex-shrink: 0;
-    width: 300px;
-    height: 200px;
-    background-color: aqua;
+    flex-shrink: 1;
+    width: 40vw;
+    height: 50vh;
+    background: url(./logo.jpg) #1f2937;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-position: center;
 }
 
+/* Sign in section */
 .blue {
     padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #3882f6;
     flex: 1;
 }
 
-.review {
-    display: flex;
-    flex-direction: column;
-    padding: 15%;
-    background-color: gray;
-}
 
-strong {
-    align-self: flex-end;
-}
 .sign {
     display: flex;
     justify-content: center;
@@ -64,9 +98,9 @@ strong {
 }
 
 .blue button {
-    background-color: blue;
-    color: white;
+    background-color: #3882f6;;
     border-color: white;
+    color: white;
 }
 
 main {
@@ -74,10 +108,13 @@ main {
     justify-content: space-around;
     padding: 5%;
 }
+/* Images Section */
 
 section h2 {
     text-align: center;
-    color: black;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .container {
@@ -131,11 +168,6 @@ footer {
     background-repeat: no-repeat;
 }
 
-.placeholder {
-    background-image: url(./logo.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
 .five {
     background-image: url(./img/cat\ 5.jpg);
@@ -148,11 +180,16 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
-li {
-    margin: 1px;
-    border-right: 2px solid white;
-    padding-right: 5px;
+
+/* Review section */
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    background-color: gray;
 }
-li:last-child {
-    border: none;
+
+strong {
+    align-self: flex-end;
 }
