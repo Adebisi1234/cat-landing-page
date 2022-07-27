@@ -140,10 +140,6 @@ section h2 {
     text-align: center;
 }
 
-footer {
-    justify-content: center;
-    align-items: center;
-}
 
 .one {
     background-image: url(./img/cat\ 1.jpg);
@@ -193,4 +189,12 @@ footer {
 
 strong {
     align-self: flex-end;
+}
+
+/* Footer */
+
+footer {
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
