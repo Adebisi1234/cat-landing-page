@@ -87,8 +87,8 @@ section h2 {
 }
 
 .img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     background-color: aqua;
 }
 
@@ -97,12 +97,53 @@ section h2 {
     flex-direction: column;
     align-items: center;
     color: black;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     text-align: center;
 }
 
 footer {
     justify-content: center;
     align-items: center;
+}
+
+.one {
+    background-image: url(./cat\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url(./cat\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: url(./cat\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four {
+    background-image: url(./cat\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.placeholder {
+    background-image: url(./logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.five {
+    background-image: url(./cat\ 5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.six {
+    background-image: url(./cat\ 6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
